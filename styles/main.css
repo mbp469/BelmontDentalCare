@@ -1,0 +1,59 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/*HEADER*/
+.header-container {
+  padding: 0 3px;
+  margin: 3px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Josefin Slab', serif;
+  font-size: 25px;
+  color: #077e98;
+  text-shadow: 2px 1px 3px #8d8a98;
+  background-image: url(/images/tooth.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  line-height: 10vh;
+}
+.name {
+  padding-top: 7vh;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  padding: 3px;
+}
+.menu-icon {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.menu-items {
+  transition: all 1s ease;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  color: black;
+}
+.menu-items a {
+  line-height: 40px;
+  margin: 13px;
+}
+.squish {
+  display: none;
+  z-index: 0;
+}
+.active {
+background: #84b6cf;
+box-shadow: 2px 1px 2px black;
+}
+/*MAIN*/
+main {
+  margin: 10px;
+}
