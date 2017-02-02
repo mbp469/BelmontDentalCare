@@ -12,7 +12,7 @@ body {
   font-size: 25px;
   color: #077e98;
   text-shadow: 2px 1px 3px #8d8a98;
-  background-image: url(../../BelmontDentalCare/images/tooth.png);
+  background-image: url(/images/tooth.png);
   background-repeat: no-repeat;
   background-size: contain;
   line-height: 10vh;
